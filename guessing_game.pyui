@@ -1,0 +1,89 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {571, 571}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{33, 72}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "number_to_guess_label",
+          "frame" : "{{211, 270}, {150, 32}}",
+          "uuid" : "16A4354A-8939-4B67-845C-0DC4387C435F",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the number",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{33, 152}, {200, 45}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "my number",
+          "name" : "guess_textfield",
+          "frame" : "{{186, 270}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "9A8AB3A2-4F92-435A-900C-B041097371ED",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{33, 265}, {95, 50}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "check_touch_up_inside",
+          "frame" : "{{246, 270}, {80, 32}}",
+          "title" : "Check",
+          "class" : "Button",
+          "uuid" : "77685418-DB8F-4AD3-AA07-AD0C30130B22",
+          "font_size" : 15,
+          "name" : "check_button"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{33, 388}, {276, 45}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{211, 270}, {150, 32}}",
+          "uuid" : "3DA631C4-9493-44E3-9AB6-7212762699FE",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
